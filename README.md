@@ -46,16 +46,12 @@ Shows the history of your past outfits that you uploaded and the suggestions tha
 
 ## 3. Navigation
 
-- Tab Navigation (tab to screen): Choosing a picture from your camera roll , Accessing your hub that shows your history 
+**Tab Navigation (tab to screen):** 
+- Choosing a picture from your camera roll , Accessing your hub that shows your history 
 
-- Flow Navigation (screen to screen):
-
-Forced Log-in -> Account creation if no log in is available 
-
-Picture screen -> take a picture or upload an existing picture 
-
-Camera roll -> If you chose to use an existing photo 
-
-Suggestions -> how to improve your outfit based off the option you chose  
-
-Hub -> access to your history and profile 
+**Flow Navigation (screen to screen):**
+- Forced Log-in -> Account creation if no log in is available
+- Picture screen -> take a picture or upload an existing picture
+- Camera roll -> If you chose to use an existing photo
+- Suggestions -> how to improve your outfit based off the option you chose
+- Hub -> access to your history and profile 
