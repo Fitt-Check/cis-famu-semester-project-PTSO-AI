@@ -55,3 +55,5 @@ Shows the history of your past outfits that you uploaded and the suggestions tha
 - Camera roll -> If you chose to use an existing photo
 - Suggestions -> how to improve your outfit based off the option you chose
 - Hub -> access to your history and profile 
+
+# Wireframe:
