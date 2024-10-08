@@ -45,18 +45,17 @@ This screen will tell you if your outfit matches the description you chose. If n
 Shows the history of your past outfits that you uploaded and the suggestions that were given and your profile. 
 
 3. Navigation
-Tab Navigation (Tab to Screen)
 
-Music selection
-Profile
-Settings
-Optional:
+- Tab Navigation (tab to screen): Choosing a picture from your camera roll , Accessing your hub that shows your history 
 
-Music/Encounter Queue
-Discover (Top Choices)
-Flow Navigation (Screen to Screen)
+- Flow Navigation (screen to screen):
 
-Forced Log-in -> Account creation if no log in is available
-Music Selection (Or Queue if Optional) -> Jumps to Chat
-Profile -> Text field to be modified.
-Settings -> Toggle settings
+Forced Log-in -> Account creation if no log in is available 
+
+Picture screen -> take a picture or upload an existing picture 
+
+Camera roll -> If you chose to use an existing photo 
+
+Suggestions -> how to improve your outfit based off the option you chose  
+
+Hub -> access to your history and profile 
