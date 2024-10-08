@@ -27,40 +27,29 @@ PTSO.AI core functionality revolves around the ability to classify outfits into 
 Several optional features could further improve the app’s functionality and user experience. For instance, storing a history of the user's past outfit categorizations would allow users to track their style choices and analyze patterns over time. The app could also allow users to upload existing photos from their gallery for analysis, making it convenient to assess previously taken outfits. To add more practicality, the app could integrate with users' calendars to suggest appropriate outfits for upcoming events or provide weather-appropriate suggestions. Further customization, like adding user-defined attire categories or integrating privacy controls for uploaded images, could personalize the experience. Finally, social sharing options would make it easy for users to share their classified outfits with friends or on social media, making the app more engaging and interactive. 
 
 2. Screens
-Login: 
 
-Register - User signs up or logs into their account 
-
+- Login: 
+Register - User signs up or logs into their account
 Upon Download/Reopening of the application, the user is prompted to log in to gain access to their profile information  
 
-Picture screen: 
-
+- Picture screen: 
 The screen will ask you for permission to use your camera and access your camera roll. It will give you options to choose a picture from your camera roll, take a picture, and choose the type of outfit you’re going for. After, you will be prompted to take or upload your picture 
 
 The top left will display a drop-down menu for you to select from business professional, business casual, or casual 
-
 In the navigation bar it will have an option to upload from your camera roll 
-
 In the bottom left it will have the option to flip the camera  
-
 In the bottom left it will have the option to turn the flash on 
 
-Camera roll screen: 
-
+- Camera roll screen: 
 If you decide to upload a picture from your camera roll this screen will allow you select that photo you want 
 
-Results & suggestions screen: 
-
+- Results & suggestions screen: 
 This screen will tell you if your outfit matches the description you chose. If not, it will give you suggestions on how to fix it  
-
 It will point to certain parts of your outfit giving you suggestions on what to fix 
 
-Hub: 
-
+- Hub: 
 Shows your history 
-
 Past outfits that you uploaded and the suggestions that were given 
-
 Your profile 
 
 3. Navigation
