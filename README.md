@@ -18,7 +18,7 @@
 > Initially, the app will focus on categorizing outfits and providing improvement suggestions based on dress codes. Future development could include personalized style recommendations, seasonal outfit guides, integration with shopping platforms for suggested items, and even fashion tracking over time to help users analyze their evolving sense of style. The app could eventually expand to offer social features, where users can share outfit choices with friends or a broader fashion community for further feedback. 
 
 # Product Spec:
-1. User Stories (Required and Optional)
+## 1. User Stories (Required and Optional)
 
 **Required:**  
 > PTSO.AI core functionality revolves around the ability to classify outfits into categories such as Business Professional, Business Casual, or Casual. The app must allow users to take pictures of themselves directly within the app and immediately scan and analyze their attire based on a pre-existing image database and the use of openAPI. If an outfit does not match the desired dress code, the app must offer suggestions for improving the outfit. This could include advice on changing specific items (e.g., swapping sneakers for dress shoes) to better fit the required attire category. Along with suggestions, the app should offer detailed explanations as to why a particular category was chosen, helping users understand the reasoning behind the classification. The user interface must be intuitive and focus solely on the outfit rather than other elements like background or facial features, ensuring reliability and ease of use for users of all skill levels. 
@@ -26,7 +26,7 @@
 **Optional:** 
 > Several optional features could further improve the app’s functionality and user experience. For instance, storing a history of the user's past outfit categorizations would allow users to track their style choices and analyze patterns over time. The app could also allow users to upload existing photos from their gallery for analysis, making it convenient to assess previously taken outfits. To add more practicality, the app could integrate with users' calendars to suggest appropriate outfits for upcoming events or provide weather-appropriate suggestions. Further customization, like adding user-defined attire categories or integrating privacy controls for uploaded images, could personalize the experience. Finally, social sharing options would make it easy for users to share their classified outfits with friends or on social media, making the app more engaging and interactive. 
 
-2. Screens
+## 2. Screens
 
 - Login: 
 Register - User signs up or logs into their account
@@ -44,7 +44,7 @@ This screen will tell you if your outfit matches the description you chose. If n
 - Hub: 
 Shows the history of your past outfits that you uploaded and the suggestions that were given and your profile. 
 
-3. Navigation
+## 3. Navigation
 
 - Tab Navigation (tab to screen): Choosing a picture from your camera roll , Accessing your hub that shows your history 
 
