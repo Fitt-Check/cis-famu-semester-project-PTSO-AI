@@ -1,12 +1,5 @@
 # cis-famu-semester-project-fitt-check
 
-TUNIN
-Comment
-Table of Contents
-Overview
-Product Spec
-Wireframes
-Overview
 # Description: 
 > PTSO. AI is an algorithm that helps users perfect their business professional, business casual, and casual outfits. It will give options on what needs to be changed to achieve these looks.  
 
@@ -19,40 +12,57 @@ Overview
 > This app can appeal to a broad audience, including professionals who need to adhere to dress codes, fashion enthusiasts looking for style feedback, and individuals preparing for events like job interviews, dates, or presentations. The app would be especially helpful for users who need guidance on fashion etiquette or who want to ensure their outfit aligns with the expectations of specific social or professional environments. 
 
 **Habit:**
-> Users could turn to this app regularly to check their daily outfit choices before leaving for wok, interviews, or social events. It could also become a go-to resource for those attending special occasions where they want reassurance that their attire is appropriate. Frequent users may develop a habit of capturing their outfits daily, seeking fashion tips, or refining their style based on the app's suggestions. 
+> Users could turn to this app regularly to check their daily outfit choices before leaving for work, interviews, or social events. It could also become a go-to resource for those attending special occasions where they want reassurance that their attire is appropriate. Frequent users may develop a habit of capturing their outfits daily, seeking fashion tips, or refining their style based on the app's suggestions. 
 
 **Scope:**
 > Initially, the app will focus on categorizing outfits and providing improvement suggestions based on dress codes. Future development could include personalized style recommendations, seasonal outfit guides, integration with shopping platforms for suggested items, and even fashion tracking over time to help users analyze their evolving sense of style. The app could eventually expand to offer social features, where users can share outfit choices with friends or a broader fashion community for further feedback. 
 
 # Product Spec:
 1. User Stories (Required and Optional)
-Required Must-have Stories
 
-User logs in to access previous chats and preference settings
-User picks what their favorite artist/genre/etc. (Think Spotify interface)
-Matches have a chat window to get to know each other, with the ability to skip music and unmatch (Tinder Style).
-Profile pages for each user
-Settings (Accesibility, Notification, General, etc.)
-Optional Nice-to-have Stories
+**Required:**  
+PTSO.AI core functionality revolves around the ability to classify outfits into categories such as Business Professional, Business Casual, or Casual. The app must allow users to take pictures of themselves directly within the app and immediately scan and analyze their attire based on a pre-existing image database and the use of openAPI. If an outfit does not match the desired dress code, the app must offer suggestions for improving the outfit. This could include advice on changing specific items (e.g., swapping sneakers for dress shoes) to better fit the required attire category. Along with suggestions, the app should offer detailed explanations as to why a particular category was chosen, helping users understand the reasoning behind the classification. The user interface must be intuitive and focus solely on the outfit rather than other elements like background or facial features, ensuring reliability and ease of use for users of all skill levels. 
 
-Log of past songs/people with album art covers matching
-Page of most played songs (i.e. songs that most users are connecting through)
-Profile Add-On: Top music choices, etc.
-Optional Shuffle Button (i.e. random encounter/random song)
-Listening/Encounter Queue
+**Optional:** 
+Several optional features could further improve the app’s functionality and user experience. For instance, storing a history of the user's past outfit categorizations would allow users to track their style choices and analyze patterns over time. The app could also allow users to upload existing photos from their gallery for analysis, making it convenient to assess previously taken outfits. To add more practicality, the app could integrate with users' calendars to suggest appropriate outfits for upcoming events or provide weather-appropriate suggestions. Further customization, like adding user-defined attire categories or integrating privacy controls for uploaded images, could personalize the experience. Finally, social sharing options would make it easy for users to share their classified outfits with friends or on social media, making the app more engaging and interactive. 
+
 2. Screens
-Login
-Register - User signs up or logs into their account
-Upon Download/Reopening of the application, the user is prompted to log in to gain access to their profile information to be properly matched with another person.
-…
-Messaging Screen - Chat for users to communicate (direct 1-on-1)
-Upon selecting music choice users matched and message screen opens
-Profile Screen
-Allows user to upload a photo and fill in information that is interesting to them and others
-Song Selection Screen.
-Allows user to be able to choose their desired song, artist, genre of preference and begin listening and interacting with others.
-Settings Screen
-Lets people change language, and app notification settings.
+Login: 
+
+Register - User signs up or logs into their account 
+
+Upon Download/Reopening of the application, the user is prompted to log in to gain access to their profile information  
+
+Picture screen: 
+
+The screen will ask you for permission to use your camera and access your camera roll. It will give you options to choose a picture from your camera roll, take a picture, and choose the type of outfit you’re going for. After, you will be prompted to take or upload your picture 
+
+The top left will display a drop-down menu for you to select from business professional, business casual, or casual 
+
+In the navigation bar it will have an option to upload from your camera roll 
+
+In the bottom left it will have the option to flip the camera  
+
+In the bottom left it will have the option to turn the flash on 
+
+Camera roll screen: 
+
+If you decide to upload a picture from your camera roll this screen will allow you select that photo you want 
+
+Results & suggestions screen: 
+
+This screen will tell you if your outfit matches the description you chose. If not, it will give you suggestions on how to fix it  
+
+It will point to certain parts of your outfit giving you suggestions on what to fix 
+
+Hub: 
+
+Shows your history 
+
+Past outfits that you uploaded and the suggestions that were given 
+
+Your profile 
+
 3. Navigation
 Tab Navigation (Tab to Screen)
 
