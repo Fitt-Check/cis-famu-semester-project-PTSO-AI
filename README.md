@@ -33,24 +33,16 @@ Register - User signs up or logs into their account
 Upon Download/Reopening of the application, the user is prompted to log in to gain access to their profile information  
 
 - Picture screen: 
-The screen will ask you for permission to use your camera and access your camera roll. It will give you options to choose a picture from your camera roll, take a picture, and choose the type of outfit you’re going for. After, you will be prompted to take or upload your picture 
-
-The top left will display a drop-down menu for you to select from business professional, business casual, or casual 
-In the navigation bar it will have an option to upload from your camera roll 
-In the bottom left it will have the option to flip the camera  
-In the bottom left it will have the option to turn the flash on 
+The screen will ask you for permission to use your camera and access your camera roll. It will give you options to choose a picture from your camera roll, take a picture, and choose the type of outfit you’re going for. After, you will be prompted to take or upload your picture. The top left will display a drop-down menu for you to select from business professional, business casual, or casual. In the navigation bar it will have an option to upload from your camera roll. In the bottom left it will have the option to flip the camera. In the bottom left it will have the option to turn the flash on. 
 
 - Camera roll screen: 
-If you decide to upload a picture from your camera roll this screen will allow you select that photo you want 
+If you decide to upload a picture from your camera roll this screen will allow you select that photo you want.
 
 - Results & suggestions screen: 
-This screen will tell you if your outfit matches the description you chose. If not, it will give you suggestions on how to fix it  
-It will point to certain parts of your outfit giving you suggestions on what to fix 
+This screen will tell you if your outfit matches the description you chose. If not, it will give you suggestions on how to fix it . It will also point to certain parts of your outfit giving you suggestions on what to fix 
 
 - Hub: 
-Shows your history 
-Past outfits that you uploaded and the suggestions that were given 
-Your profile 
+Shows the history of your past outfits that you uploaded and the suggestions that were given and your profile. 
 
 3. Navigation
 Tab Navigation (Tab to Screen)
