@@ -57,3 +57,5 @@ Shows the history of your past outfits that you uploaded and the suggestions tha
 - Hub -> access to your history and profile 
 
 # Wireframe:
+
+
