@@ -7,8 +7,9 @@ Overview
 Product Spec
 Wireframes
 Overview
-Description
-Tracks what music an individual listens to, and pairs them with others based on that music. Could be potentially used as a dating app, or just meeting new friends with similar music tastes.
+# Description: 
+PTSO. AI is an algorithm that helps users perfect their business professional, business casual, and casual outfits. It will give options on what needs to be changed to achieve these looks.  
+
 
 App Evaluation
 Category: Social Networking / Music
