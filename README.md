@@ -57,6 +57,7 @@ Shows the history of your past outfits that you uploaded and the suggestions tha
 - Hub -> access to your history and profile 
 
 # Wireframe:
+![wireframe](wireframe.jpeg)
 
 # Interactive Prototype:
 ![Interactive Prototype](https://github.com/Fitt-Check/cis-famu-semester-project-fitt-check/blob/main/Interactive%20Prototype.gif)
