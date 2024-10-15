@@ -66,17 +66,50 @@ Shows the history of your past outfits that you uploaded and the suggestions tha
 
 
 # Schema
-Models
-Post
-Property	Type	Description
-objectId	String	unique id for the user post (default field)
-author	Pointer to User	image author
-image	File	image that user posts
-caption	String	image caption by author
-commentsCount	Number	number of comments that has been posted to an image
-likesCount	Number	number of likes for the post
-createdAt	DateTime	date when post is created (default field)
-updatedAt	DateTime	date when post is last updated (default field)
+
+USER MODEL
+| Field          | Type           | Description                                   |
+|----------------|----------------|-----------------------------------------------|
+| userId         | String         | Unique identifier for each user (default).    |
+| username       | String         | Username chosen by the user.                  |
+| email          | String         | User’s email address.                         |
+| passwordHash   | String         | Hashed password for security.                 |
+| profileImage   | File           | User’s profile picture (optional).            |
+| createdAt      | DateTime       | Date the user account was created (default).  |
+| updatedAt      | DateTime       | Last update to the user profile (default).    |
+
+OUTFIT MODEL 
+| Field          | Type            | Description                                   |
+|----------------|-----------------|-----------------------------------------------|
+| outfitId       | String          | Unique ID for each outfit (default).          |
+| userId         | Pointer to User | Reference to the user who uploaded the outfit.|
+| image          | File            | Image of the outfit uploaded by the user.     |
+| category       | String          | The category assigned (e.g., "Business Casual").|
+| suggestions    | Array of Strings| Suggestions for improvement (if needed).      |
+| createdAt      | DateTime        | Date the outfit was uploaded (default).       |
+| updatedAt      | DateTime        | Date of last update to the outfit (default).  |
+
+CLASSIFICATION MODEL
+| Field             | Type            | Description                                   |
+|-------------------|-----------------|-----------------------------------------------|
+| classificationId  | String          | Unique ID for each classification (default).  |
+| outfitId          | Pointer to Outfit| Reference to the related outfit.              |
+| category          | String          | The determined category (e.g., "Business Professional").|
+| confidenceScore   | Number          | Confidence score of the classification.       |
+| suggestions       | Array of Strings | Suggestions to improve the outfit.            |
+| createdAt         | DateTime        | Date the classification was generated (default).|
+
+
+HISTORY MODEL
+| Field             | Type            | Description                                   |
+|-------------------|-----------------|-----------------------------------------------|
+| historyId         | String          | Unique ID for each history entry (default).   |
+| userId            | Pointer to User | Reference to the user.                        |
+| outfitId          | Pointer to Outfit| Reference to the uploaded outfit.             |
+| classificationId  | Pointer to Classification | Reference to the classification.         |
+| createdAt         | DateTime        | Date the history entry was recorded (default).|
+
+
 Networking
 List of network requests by screen
 Home Feed Screen
@@ -92,15 +125,7 @@ query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
   // TODO: Do something with posts...
    }
 }
-(Create/POST) Create a new like on a post
-(Delete) Delete existing like
-(Create/POST) Create a new comment on a post
-(Delete) Delete existing comment
-Create Post Screen
-(Create/POST) Create a new post object
-Profile Screen
-(Read/GET) Query logged in user object
-(Update/PUT) Update user profile image
+
 | Method | Endpoint              | Description                                                                 | Example Query                                                        |
 |--------|-----------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------|
 | POST   | /login                | User logs in or creates an account.                                         | { "username": "user1", "password": "password123" }                    |
