@@ -101,23 +101,18 @@ Create Post Screen
 Profile Screen
 (Read/GET) Query logged in user object
 (Update/PUT) Update user profile image
-[IF EXISTS:] Existing API Endpoints
-An API Of Ice And Fire
-Base URL - http://www.anapioficeandfire.com/api
+| Method | Endpoint              | Description                                                                 | Example Query                                                        |
+|--------|-----------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------|
+| POST   | /login                | User logs in or creates an account.                                         | { "username": "user1", "password": "password123" }                    |
+| GET    | /outfit/analyze       | Analyze an uploaded outfit image to classify it (e.g., Business, Casual).   | { "image_url": "http://example.com/image.jpg", "category": "Business Casual" } |
+| POST   | /outfit/analyze       | Upload an image and classify based on selected category.                    | { "image_file": [binary data], "category": "Casual" }                 |
+| GET    | /outfit/suggestions   | Get suggestions for improving the uploaded outfit based on category.        | { "outfit_id": "12345" }                                              |
+| POST   | /outfit/suggestions   | Provide improvement suggestions for a specific outfit.                      | { "outfit_id": "12345", "suggestions": ["swap sneakers for dress shoes"] } |
+| GET    | /user/history         | Get the history of all outfit analyses and suggestions for the user.        | { "user_id": "12345" }                                                |
+| GET    | /outfit/:id           | Get details of a specific outfit and its analysis results.                  | /outfit/12345                                                         |
+| PUT    | /user/profile/image   | Update user profile image.                                                  | { "user_id": "12345", "image_file": [binary data] }                   |
 
-HTTP Verb	Endpoint	Description
-GET	/characters	get all characters
-GET	/characters/?name=name	return specific character by name
-GET	/houses	get all houses
-GET	/houses/?name=name	return specific house by name
-Game of Thrones API
-Base URL - https://api.got.show/api
 
-HTTP Verb	Endpoint	Description
-GET	/cities	gets all cities
-GET	/cities/byId/:id	gets specific city by :id
-GET	/continents	gets all continents
-GET	/continents/byId/:id	gets specific continent by :id
-GET	/regions	gets all regions
-GET	/regions/byId/:id	gets specific region by :id
-GET	/characters/paths/:name	gets a character's path with a given name
+
+
+
