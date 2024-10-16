@@ -1,4 +1,4 @@
-# cis-famu-semester-project-fitt-check
+# cis-famu-semester-project-PTSO.AI
 
 # Description: 
 > PTSO. AI is an algorithm that helps users perfect their business professional, business casual, and casual outfits. It will give options on what needs to be changed to achieve these looks.  
