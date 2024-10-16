@@ -67,7 +67,7 @@ Shows the history of your past outfits that you uploaded and the suggestions tha
 
 # Schema
 
-**USER MODEL: **
+**User Model:**
 | Field          | Type           | Description                                   |
 |----------------|----------------|-----------------------------------------------|
 | userId         | String         | Unique identifier for each user (default).    |
@@ -78,7 +78,7 @@ Shows the history of your past outfits that you uploaded and the suggestions tha
 | createdAt      | DateTime       | Date the user account was created (default).  |
 | updatedAt      | DateTime       | Last update to the user profile (default).    |
 
-**OUTFIT MODEL: **
+**Outfit Model:**
 | Field          | Type            | Description                                   |
 |----------------|-----------------|-----------------------------------------------|
 | outfitId       | String          | Unique ID for each outfit (default).          |
@@ -89,7 +89,7 @@ Shows the history of your past outfits that you uploaded and the suggestions tha
 | createdAt      | DateTime        | Date the outfit was uploaded (default).       |
 | updatedAt      | DateTime        | Date of last update to the outfit (default).  |
 
-**CLASSIFICATION MODEL :**
+**Classification Model:**
 | Field             | Type            | Description                                   |
 |-------------------|-----------------|-----------------------------------------------|
 | classificationId  | String          | Unique ID for each classification (default).  |
@@ -99,7 +99,7 @@ Shows the history of your past outfits that you uploaded and the suggestions tha
 | suggestions       | Array of Strings | Suggestions to improve the outfit.            |
 | createdAt         | DateTime        | Date the classification was generated (default).|
 
-**HISTORY MODEL: **
+**History Model:**
 | Field             | Type            | Description                                   |
 |-------------------|-----------------|-----------------------------------------------|
 | historyId         | String          | Unique ID for each history entry (default).   |
@@ -124,7 +124,7 @@ query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
   // TODO: Do something with posts...
    }
 }
-**ENDPOINTS: **
+**Endpoints:**
 | Method | Endpoint              | Description                                                                 | Example Query                                                        |
 |--------|-----------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------|
 | POST   | /login                | User logs in or creates an account.                                         | { "username": "user1", "password": "password123" }                    |
