@@ -137,6 +137,6 @@ query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
 | PUT    | /user/profile/image   | Update user profile image.                                                  | { "user_id": "12345", "image_file": [binary data] }                   |
 
 
-
+![Link for the project board and TO DO list](https://github.com/orgs/Fitt-Check/projects/3/views/1?layout=board)
 
 
