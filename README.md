@@ -20,11 +20,36 @@
 # Product Spec:
 ## 1. User Stories (Required and Optional)
 
-**Required:**  
-> PTSO.AI core functionality revolves around the ability to classify outfits into categories such as Business Professional, Business Casual, or Casual. The app must allow users to take pictures of themselves directly within the app and immediately scan and analyze their attire based on a pre-existing image database and the use of openAPI. If an outfit does not match the desired dress code, the app must offer suggestions for improving the outfit. This could include advice on changing specific items (e.g., swapping sneakers for dress shoes) to better fit the required attire category. Along with suggestions, the app should offer detailed explanations as to why a particular category was chosen, helping users understand the reasoning behind the classification. The user interface must be intuitive and focus solely on the outfit rather than other elements like background or facial features, ensuring reliability and ease of use for users of all skill levels. 
+**Required User Stories**
+Outfit Classification:
+As a user, I want to take a picture of my outfit within the app so it can be scanned and classified immediately.
+As a user, I want the app to categorize my outfit into Business Professional, Business Casual, or Casual based on a pre-existing image database and an OpenAPI integration.
+As a user, I want the app to suggest outfit improvements if my current outfit doesn’t match my selected dress code (e.g., recommend swapping sneakers for dress shoes).
+As a user, I want a detailed explanation of why the app selected a particular category for my outfit so I can understand and learn from the classification.
+As a user, I want the interface to be intuitive and focused on my outfit only, excluding background and facial features, so I can use it easily.
 
-**Optional:** 
-> Several optional features could further improve the app’s functionality and user experience. For instance, storing a history of the user's past outfit categorizations would allow users to track their style choices and analyze patterns over time. The app could also allow users to upload existing photos from their gallery for analysis, making it convenient to assess previously taken outfits. To add more practicality, the app could integrate with users' calendars to suggest appropriate outfits for upcoming events or provide weather-appropriate suggestions. Further customization, like adding user-defined attire categories or integrating privacy controls for uploaded images, could personalize the experience. Finally, social sharing options would make it easy for users to share their classified outfits with friends or on social media, making the app more engaging and interactive. 
+**Optional User Stories**
+Outfit History and Analysis:
+
+As a user, I want to save a history of my outfit classifications so I can track my style choices over time.
+Photo Upload:
+
+As a user, I want to be able to upload photos from my gallery for outfit analysis so I can assess past outfits.
+Calendar Integration:
+
+As a user, I want the app to sync with my calendar to suggest outfits based on upcoming events, making it easier to plan for different dress codes.
+Weather-Appropriate Suggestions:
+
+As a user, I want the app to offer outfit recommendations based on the weather to ensure my attire is practical and comfortable.
+Custom Categories:
+
+As a user, I want to add my own attire categories, making the app more personalized to my unique style needs.
+Privacy Controls:
+
+As a user, I want to control the privacy of my uploaded images so I feel secure using the app.
+Social Sharing:
+
+As a user, I want to share my classified outfits on social media or with friends to make the experience more engaging and interactive.
 
 ## 2. Screens
 
