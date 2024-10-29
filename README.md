@@ -22,7 +22,7 @@
 
 **Required User Stories**
 Outfit Classification:
-- [x] As a user, I want to take a picture of my outfit within the app so it can be scanned and classified immediately.
+- [ ] As a user, I want to take a picture of my outfit within the app so it can be scanned and classified immediately.
 
 - [x] As a user, I want the app to categorize my outfit into Business Professional, Business Casual, or Casual based on a pre-existing image database and an OpenAPI integration.
 
