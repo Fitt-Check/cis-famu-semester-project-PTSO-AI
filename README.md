@@ -168,7 +168,7 @@ query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
 
 ![Project board and TO DO list](https://github.com/orgs/Fitt-Check/projects/3/views/1?layout=board)
 
-# MileStone 4
+# MileStone 4:
 > In this milestone, my team and I added the User, Outfits, History, and Collections collections to our model in IntelliJ. We also implemented the abstract and REST models as needed for each collection. Additionally, we obtained permission to use an API key and learned how to create one for OpenAI integration.
 
 ![Milestone 4 Gif](https://github.com/Fitt-Check/cis-famu-semester-project-PTSO-AI/blob/main/Miletsone%204.gif)
