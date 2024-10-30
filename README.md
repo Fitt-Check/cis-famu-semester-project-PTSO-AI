@@ -171,4 +171,4 @@ query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
 **MileStone 4:**
 In this milestone my team and I added the collections user, outfits, history, and collections to our model in intellij. The abstract and rets models as needed for each collection. We got permission to use an API key and learned how to create an API key to use for openAI.
 
-![](https://github.com/Fitt-Check/cis-famu-semester-project-fitt-check/blob/main/Interactive%20Prototype.gif)
+![Milestone 4 Gif]([https://github.com/Fitt-Check/cis-famu-semester-project-fitt-check/blob/main/Interactive%20Prototype.gif](https://github.com/Fitt-Check/cis-famu-semester-project-PTSO-AI/blob/main/Miletsone%204.gif)
