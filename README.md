@@ -24,13 +24,13 @@
 Outfit Classification:
 - [ ] As a user, I want to take a picture of my outfit within the app so it can be scanned and classified immediately.
 
-- [ ] As a user, I want the app to categorize my outfit into Business Professional, Business Casual, or Casual based on a pre-existing image database and an OpenAPI integration.
+- [x] As a user, I want the app to categorize my outfit into Business Professional, Business Casual, or Casual based on a pre-existing image database and an OpenAPI integration.
 
-- [ ] As a user, I want the app to suggest outfit improvements if my current outfit doesn’t match my selected dress code (e.g., recommend swapping sneakers for dress shoes).
+- [x] As a user, I want the app to suggest outfit improvements if my current outfit doesn’t match my selected dress code (e.g., recommend swapping sneakers for dress shoes).
 
-- [ ] As a user, I want a detailed explanation of why the app selected a particular category for my outfit so I can understand and learn from the classification.
+- [x] As a user, I want a detailed explanation of why the app selected a particular category for my outfit so I can understand and learn from the classification.
 
-- [ ] As a user, I want the interface to be intuitive and focused on my outfit only, excluding background and facial features, so I can use it easily.
+- [x] As a user, I want the interface to be intuitive and focused on my outfit only, excluding background and facial features, so I can use it easily.
 
 **Optional User Stories**
 Outfit History and Analysis:
@@ -38,13 +38,13 @@ Outfit History and Analysis:
 - [ ] As a user, I want to save a history of my outfit classifications so I can track my style choices over time.
 Photo Upload:
 
-- [ ] As a user, I want to be able to upload photos from my gallery for outfit analysis so I can assess past outfits.
+- [x] As a user, I want to be able to upload photos from my gallery for outfit analysis so I can assess past outfits.
 Calendar Integration:
 
 - [ ] As a user, I want the app to sync with my calendar to suggest outfits based on upcoming events, making it easier to plan for different dress codes.
 Weather-Appropriate Suggestions:
 
-- [ ] As a user, I want the app to offer outfit recommendations based on the weather to ensure my attire is practical and comfortable.
+- [x] As a user, I want the app to offer outfit recommendations based on the weather to ensure my attire is practical and comfortable.
 Custom Categories:
 
 - [ ] As a user, I want to add my own attire categories, making the app more personalized to my unique style needs.
