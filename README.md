@@ -174,3 +174,5 @@ query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
 ![Milestone 4 Gif](https://github.com/Fitt-Check/cis-famu-semester-project-PTSO-AI/blob/main/Miletsone%204.gif)
 
 ![Poster Presentation Video] https://drive.google.com/file/d/1KNIcf3a4BkoQxMFxn7dIV3gqLXU8l-Qu/view?usp=sharing
+
+![Poster](Wireframe.jpeg)
