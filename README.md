@@ -175,4 +175,4 @@ query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
 
 ![Poster Presentation Video] https://drive.google.com/file/d/1KNIcf3a4BkoQxMFxn7dIV3gqLXU8l-Qu/view?usp=sharing
 
-![Poster](Wireframe.jpeg)
+![Poster](PTOSAI Poster.pptx)
